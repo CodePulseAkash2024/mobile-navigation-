@@ -162,13 +162,13 @@ label[for="s2"] .twitter-icon {
     fill: #ffffff;
 }
 
-/* Highlight the selected X/Twitter icon */
+
 #s2:checked ~ label[for="s2"] svg {
     top: -85px;
     filter: drop-shadow(0 0 3px #ffffff);
 }
 
-/* Keep other SVG icons visible at the same size */
+
 label[for="s1"] svg,
 label[for="s3"] svg {
     display: block;
